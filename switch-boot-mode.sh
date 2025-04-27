@@ -8,7 +8,7 @@ text_mode() {
     echo "Ejecuta: sudo reboot"
 }
 
-# Función para volver al modo gráfico
+# Función para volver al modo gráfico 
 graphic_mode() {
     echo "Restaurando modo gráfico (graphical.target)..."
     sudo systemctl set-default graphical.target
